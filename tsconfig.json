@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    /* Basic Options */
+    // NOTE: we're using Node 16, so we should compile to ES2021 for minimal compilation. See https://github.com/microsoft/TypeScript/wiki/Node-Target-Mapping
+    "target": "ES2021",
+    /* Specify ECMAScript target version: 'ES3' (default), 'ES5', 'ES2015', 'ES2016', 'ES2017', or 'ESNEXT'. */
+    "module": "CommonJS",
+    /* Specify module code generation: 'none', commonjs', 'amd', 'system', 'umd', 'es2015', or 'ESNext'. */
+    "lib": ["ES2021"],                             /* Specify library files to be included in the compilation:  */
+    /* Module Resolution Options */
+    "moduleResolution": "node",
+    /* Experimental Options */
+    "experimentalDecorators": true,        /* Enables experimental support for ES7 decorators. */
+    "emitDecoratorMetadata": true,         /* Enables experimental support for emitting type metadata for decorators. */
+    "esModuleInterop": true,
+    "strict": true,
+  },
+  "include": [
+    "graphql-api/**/*.ts",
+    "tests/**/*.ts",
+  ],
+  "ts-node": {
+    "swc": true
+  }
+}
