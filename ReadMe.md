@@ -56,7 +56,7 @@ Ran all test suites matching /issue.test.ts/i.
 error Command failed with exit code 1.
 ```
 
-# Expected output
+## Expected output
 
 Jest is expected to run and fail the test, because `1 + 1 = 2`, not `3`:
 

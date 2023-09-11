@@ -1573,6 +1573,11 @@
   dependencies:
     "@types/yargs-parser" "*"
 
+"@victorandree/graphql-codegen-client-preset-swc-plugin@^0.1.0":
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/@victorandree/graphql-codegen-client-preset-swc-plugin/-/graphql-codegen-client-preset-swc-plugin-0.1.0.tgz#a58628dc5fe755328f8bea9bbe5c3d2a929d45c8"
+  integrity sha512-vR9cJYSB+dKn1p8zUdzVjtNHb4CHuPqWe0uvqLz0+hPcPiPCo7tEf2bCYClIhodJSadLz4PXK5/UfuoWsrjRlA==
+
 "@whatwg-node/events@^0.0.3":
   version "0.0.3"
   resolved "https://registry.yarnpkg.com/@whatwg-node/events/-/events-0.0.3.tgz#13a65dd4f5893f55280f766e29ae48074927acad"
